@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "TrafficLight",
+            "type": "coreclr",
+            "request": "launch",           
+            "preLaunchTask": "build-TrafficLight",
+            "program": "${workspaceFolder}/TrafficLight/bin/Debug/net7.0/TrafficLight.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/TrafficLight",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Car",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Car",
+            "program": "${workspaceFolder}/Car/bin/Debug/net7.0/Car.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Car",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}
